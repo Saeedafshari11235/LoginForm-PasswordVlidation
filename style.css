@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+}
+main{
+    background-color: #111117;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+input{
+    margin:1rem 0rem;
+    background-color: #171717;
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+button{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-image: linear-gradient(-45deg,#B31CD6,#D328A9);
+}
+div.bubble#black-up{
+    width: 10rem;
+    height: 10rem;
+    background-image: linear-gradient(45deg,#111111,#323142);
+    z-index: -1;
+    border-radius: 5rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 3rem;
+}
+div.bubble#colorized-up{
+    width: 10rem;
+    height: 10rem;
+    background-image: linear-gradient(45deg,#AC2BCD,#DC5BB4,#ECC5AB);
+    z-index: -2;
+    border-radius: 5rem;
+    position: absolute;
+    top: 3rem;
+    left: 32rem;
+}
+div.bubble#black-mid{
+    width: 15rem;
+    height: 15rem;
+    background-image: linear-gradient(45deg,#111111,#323142);
+    z-index: -3;
+    border-radius: 7.5rem;
+    position: absolute;
+    top: 15.5rem;
+    left: 65rem;
+}
+div.bubble#colorized-mid{
+    width: 10rem;
+    height: 10rem;
+    background-image: linear-gradient(45deg,#AC2BCD,#DC5BB4,#ECC5AB);
+    z-index: -4;
+    border-radius: 5rem;
+    position: absolute;
+    top: 11rem;
+    left: 55rem;
+}
+div.bubble#black-down{
+    width: 10rem;
+    height: 10rem;
+    background-image: linear-gradient(45deg,#111111,#323142);
+    z-index: -5;
+    border-radius: 5rem;
+    position: absolute;
+    top: 22rem;
+    left: 19rem;
+}
+div.bubble#colorized-down{
+    width: 15rem;
+    height: 15rem;
+    background-image: linear-gradient(45deg,#AC2BCD,#DC5BB4,#ECC5AB);
+    z-index: -6;
+    border-radius: 7.5rem;
+    position: absolute;
+    top: 29rem;
+    left: 5rem;
+}
