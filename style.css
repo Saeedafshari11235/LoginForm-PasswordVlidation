@@ -96,3 +96,10 @@ div.bubble#colorized-down{
     top: 29rem;
     left: 5rem;
 }
+span{
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
