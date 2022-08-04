@@ -19,10 +19,15 @@ main{
 input{
     margin:1rem 0rem;
     background-color: #171717;
-    border: none;
+    border: 3px solid rgb(50, 50, 50);
     width: 15rem;
     height: 2.5rem;
     border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+input:focus{
+    border: none;
+    border: 3px solid #83259C;
 }
 button{
     width: 15rem;
