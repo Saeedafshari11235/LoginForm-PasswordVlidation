@@ -114,7 +114,7 @@ form>div{
     display: flex;
     margin-top: -1rem;
     margin-bottom: 1rem;
-    margin-left: -5.5rem;
+    margin-left: -1.8rem;
 }
 form div div{
     margin-left: 4px;
@@ -123,6 +123,10 @@ form div div{
 }
 form div .red{
     background-color: rgb(255, 0, 0);
+    visibility: hidden;
+}
+form div .orange{
+    background-color: rgb(255, 94, 0);
     visibility: hidden;
 }
 form div .yellow{
