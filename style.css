@@ -30,6 +30,7 @@ input{
     height: 2.5rem;
     border-radius: 0.5rem;
     box-sizing: border-box;
+    color: #fff;
 }
 input:focus{
     border: none;
