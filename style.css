@@ -123,12 +123,15 @@ form div div{
 }
 form div .red{
     background-color: rgb(255, 0, 0);
+    visibility: hidden;
 }
 form div .yellow{
     background-color: rgb(255, 255, 0);
+    visibility: hidden;
 }
 form div .green{
     background-color: rgb(13, 255, 0);
+    visibility: hidden;
 }
 .status{
     margin-top: -1rem;
