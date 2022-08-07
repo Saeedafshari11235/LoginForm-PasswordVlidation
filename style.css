@@ -35,6 +35,7 @@ input{
 input:focus{
     border: none;
     border: 3px solid #83259C;
+    outline: none;
 }
 button{
     width: 15rem;
