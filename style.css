@@ -42,7 +42,7 @@ button{
     border-radius: 0.5rem;
     color: #fff;
     background-image: linear-gradient(-45deg,#B31CD6,#D328A9);
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 button:hover{
     transform: translateY(-0.3rem);
@@ -155,6 +155,9 @@ form div .green{
     margin-top: -1rem;
     margin-bottom: 1rem;
     margin-right: 0rem;
+}
+strong{
+    transition: all 0.3s;
 }
 strong:hover{
     background-image: linear-gradient(-45deg,#B31CD6,#D328A9);
